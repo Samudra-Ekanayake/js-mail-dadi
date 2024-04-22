@@ -1,8 +1,12 @@
-const giocatore = 4
-const computer = 6
+const giocatore = 1
+const computer = 2
 
 if (giocatore > computer) {
     console.log("giocatore ha vinto")
+}
+
+else if (giocatore == computer) {
+    console.log("pareggio")
 }
 
 else {
