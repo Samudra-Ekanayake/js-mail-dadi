@@ -5,11 +5,14 @@ const listaEmailConsentite = [
     "alessiaviola@email.com"
 ];
 
-const emailUtente = prompt("inserisci la tua email");
+function controlloEmail() {
+    const emailUtente = document.getElementById("emailInput").value
+
 
 const emailConsentita = listaEmailConsentite.includes(emailUtente);
 
 if (emailConsentita) {
-    console.log("la tua email è stata trovata")
+    document.getElementById("messaggio").textContent = "la tua email è stata trovata"  
+}
 }
     
