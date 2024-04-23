@@ -14,5 +14,9 @@ const emailConsentita = listaEmailConsentite.includes(emailUtente);
 if (emailConsentita) {
     document.getElementById("messaggio").textContent = "la tua email è stata trovata"  
 }
+
+else {
+    document.getElementById("messaggio").textContent = "La tua email non è stata trovata"
+}
 }
     
