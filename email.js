@@ -18,5 +18,5 @@ if (emailConsentita) {
 else {
     document.getElementById("messaggio").textContent = "La tua email non è stata trovata"
 }
-}
+} 
     
